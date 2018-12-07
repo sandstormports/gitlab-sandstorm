@@ -1,6 +1,6 @@
-gitlab_repo = https://github.com/dwrensha/gitlabhq.git
+gitlab_repo = https://github.com/sandstormports/gitlabhq.git
 gitlab_repo_branch = sandstorm-app
-gitlab_shell_repo = https://github.com/dwrensha/gitlab-shell.git
+gitlab_shell_repo = https://github.com/sandstormports/gitlab-shell.git
 gitlab_shell_repo_branch = sandstorm-app
 
 gitlab_workhorse_repo = https://gitlab.com/gitlab-org/gitlab-workhorse.git

@@ -3,8 +3,10 @@
 set -euo pipefail
 
 export DEBIAN_FRONTEND=noninteractive
+# Add latest nodejs sources
+curl -sL https://deb.nodesource.com/setup_7.x | bash -
 apt-get update
-apt-get install -y nodejs-dev nodejs-legacy git libsqlite3-dev cmake pkg-config libicu-dev g++ redis-server golang-go
+apt-get install -y nodejs git libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev cmake pkg-config libicu-dev g++ redis-server golang-go
 
 mkdir /opt/ruby
 chown vagrant:vagrant /opt/ruby

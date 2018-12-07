@@ -10,10 +10,12 @@ git clone https://github.com/rbenv/ruby-build.git /opt/ruby/rbenv/plugins/ruby-b
 
 export PATH=/opt/ruby/rbenv/bin:$PATH
 export RBENV_ROOT=/opt/ruby/rbenv
+# export RBENV_VERSION=2.5.1
 eval "$(rbenv init -)"
 
-rbenv install 2.1.8
-rbenv shell 2.1.8
+# to list all available versions: rbenv install -l
+rbenv install 2.5.1
+rbenv shell 2.5.1
 
 gem install bundler
 
